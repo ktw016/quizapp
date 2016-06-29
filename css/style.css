@@ -1,0 +1,199 @@
+body {
+	background-color: #F1F1F2;
+	color: #1995AD;
+	font-family: 'Raleway', serif;
+}
+
+header {
+	text-align: center;
+}
+
+.welcomeBanner {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.newGame {
+	float: right;
+	margin: 0 auto;
+	border: 2px solid;
+	background-color: #ef9166;
+	color: #F1F1F2;
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+}
+
+.newGame:hover {
+	background-color: #f27136;
+}
+
+.world {
+	width: 250px;
+	height: 250px;
+}
+
+.intro {
+	color: #f27136;
+	text-align: center;
+}
+
+.start {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid;
+	background-color: #539dab;
+	color: #F1F1F2;
+    border-radius: 25px;
+    width: 140px;
+    height: 75px;
+}
+
+.start:hover {
+	background-color: #1995AD;
+}
+
+.questions {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	float: left;
+}
+
+.questions li {
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 2rem;
+	color: #1995AD;
+}
+
+.progress {
+	float:right;
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.currentQuestion {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	background-color: #f27136; 
+	margin: 10px;
+}
+
+.progressBar {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px; 
+	background-color: #7d7d7d; 
+	margin: 10px;
+}
+
+.progress li {
+	list-style: none;
+}
+
+.currentQuestion.q1 {
+	background-image: url("../images/q1.png");
+	width: 75px;
+	height: 75px; 
+}
+
+.nextButton {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid;
+	background-color: #ef9166;
+	color: #F1F1F2;
+    border-radius: 25px;
+    width: 140px;
+    height: 75px;
+}
+
+.nextButton:hover {
+	background-color: #f27136;
+}
+
+.choices {
+	text-transform: uppercase;
+	list-style: lower-alpha;
+}
+
+.choices a:link, a:visited {
+	text-decoration: none;
+	color: #1995AD;
+	padding: 10px 20px;
+}
+
+.choices a:hover {
+	background-color: #ef9166; 
+	border-radius: 25px;
+    color: white;
+}
+
+.choices a:active {
+	background-color: #f27136; 
+	border-radius: 25px;
+    color: white;
+}
+
+.container2 {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.result {
+	text-align: center;
+	display: inline-block;
+	width: 30rem;
+	height: 30rem;
+	background-color: #1995AD;
+	border-radius: 10%;
+	color: white;
+	margin: 0 auto;
+}
+
+.nextQuestion {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #ef9166;
+	background-color: #ef9166;
+	color: #F1F1F2;
+    border-radius: 25px;
+    width: 140px;
+}
+
+.nextQuestion:hover {
+	background-color: #f27136;
+	border: 2px solid #f27136;
+}
+
+.endGame {
+	text-align: center;
+	display: inline-block;
+	width: 30rem;
+	height: 30rem;
+	background-color: #f27136;
+	border-radius: 10%;
+	color: white;
+	margin: 0 auto;
+}
+
+.startOver {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #539dab;
+	background-color: #539dab;
+	color: #F1F1F2;
+    border-radius: 25px;
+    width: 140px;
+}
+
+.startOver:hover {
+	background-color: #1995AD;
+	border: 2px solid #1995AD;
+}
