@@ -20,9 +20,9 @@ header {
 	border: 2px solid;
 	background-color: #ef9166;
 	color: #F1F1F2;
-    border-radius: 25px;
-    width: 120px;
-    height: 60px;
+	border-radius: 25px;
+	width: 120px;
+	height: 60px;
 }
 
 .newGame:hover {
@@ -45,9 +45,9 @@ header {
 	border: 2px solid;
 	background-color: #539dab;
 	color: #F1F1F2;
-    border-radius: 25px;
-    width: 140px;
-    height: 75px;
+	border-radius: 25px;
+	width: 140px;
+	height: 75px;
 }
 
 .start:hover {
@@ -80,15 +80,15 @@ header {
 	border-radius: 50%;
 	width: 75px;
 	height: 75px;
-	background-color: #f27136; 
+	background-color: #f27136;
 	margin: 10px;
 }
 
 .progressBar {
 	border-radius: 50%;
 	width: 75px;
-	height: 75px; 
-	background-color: #7d7d7d; 
+	height: 75px;
+	background-color: #7d7d7d;
 	margin: 10px;
 }
 
@@ -99,7 +99,7 @@ header {
 .currentQuestion.q1 {
 	background-image: url("../images/q1.png");
 	width: 75px;
-	height: 75px; 
+	height: 75px;
 }
 
 .nextButton {
@@ -108,9 +108,9 @@ header {
 	border: 2px solid;
 	background-color: #ef9166;
 	color: #F1F1F2;
-    border-radius: 25px;
-    width: 140px;
-    height: 75px;
+	border-radius: 25px;
+	width: 140px;
+	height: 75px;
 }
 
 .nextButton:hover {
@@ -129,15 +129,15 @@ header {
 }
 
 .choices a:hover {
-	background-color: #ef9166; 
+	background-color: #ef9166;
 	border-radius: 25px;
-    color: white;
+	color: white;
 }
 
 .choices a:active {
-	background-color: #f27136; 
+	background-color: #f27136;
 	border-radius: 25px;
-    color: white;
+	color: white;
 }
 
 #container2 {
@@ -162,8 +162,8 @@ header {
 	border: 2px solid #ef9166;
 	background-color: #ef9166;
 	color: #F1F1F2;
-    border-radius: 25px;
-    width: 140px;
+	border-radius: 25px;
+	width: 140px;
 }
 
 .nextQuestion:hover {
@@ -188,8 +188,8 @@ header {
 	border: 2px solid #539dab;
 	background-color: #539dab;
 	color: #F1F1F2;
-    border-radius: 25px;
-    width: 140px;
+	border-radius: 25px;
+	width: 140px;
 }
 
 .startOver:hover {
@@ -201,10 +201,3 @@ header {
 	display: none;
 }
 
-.hidden2 {
-	display: none;
-}
-
-.hidden3 {
-	display: none;
-}
