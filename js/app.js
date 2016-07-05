@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('.start').on('click', function(e) {
 		e.preventDefault();
-		$('#container > .questions').show();
+		$('#container').show();
 		$('.start').hide();
 	});
 	$('q-submit-button').on('click', function(e) {
