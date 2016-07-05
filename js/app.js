@@ -1,3 +1,28 @@
+$(document).ready(function() {
+	$('.start').on('click', function(){
+		e.preventDefault();
+		$('#container > .questions').show();
+		$('.start').hide();
+	});
+	$('q-submit-button').on('click', function(e) {
+		e.preventDefault();
+
+		quiz.checkAnswer();
+		//Hide question div
+		//Show answer div
+	});
+	$('nextButton').on('click', function(e) {
+		e.preventDefault();
+
+		quiz.nextQuestion();
+		// Hide answer div
+		
+		// Show questions div
+	});
+
+});
+
+
 var questions = [{
 	question: "What is the capital of Australia?",
 	choices: ["Sydney", "Canberra", "Melbourne", "Adelaide"],
@@ -31,6 +56,7 @@ var quiz = {
 	nextQuestion: function() {
 		// Should first check to make sure we're not at the end
 		// Then increment this.currentQuestion
+		this.currentQuestion++;
 		// Call a method to write to the DOM
 	},
 	writeToDOM: function() {
@@ -54,25 +80,3 @@ var quiz = {
 	},
 };
 
-$(document).ready(function() {
-	$('.start').on('click', function(e){
-		e.preventDefault();
-		$('#container').show('.questions');
-		$('.intro').hide('.start');
-	})
-	$('q-submit-button').on('click', function(e) {
-		e.preventDefault();
-
-		quiz.checkAnswer();
-		//Hide question div
-		//Show answer div
-	});
-	$('a-next-button').on('click', function(e) {
-		e.preventDefault();
-
-		quiz.nextQuestion();
-		// Hide answer div
-		// Show questions div
-	});
-
-});
