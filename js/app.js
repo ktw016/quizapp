@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$('.start').on('click', function(e) {
 		e.preventDefault();
-		$('#container').show();
-		$('.start').hide();
+		$('#intro-container').hide();
+		$('#question-container').show();
 	});
 	$('q-submit-button').on('click', function(e) {
 		e.preventDefault();
