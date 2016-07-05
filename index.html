@@ -17,14 +17,14 @@
 			<img class="world" src="images/world.png">
 		</div>
 	</header>
-	<div class="intro">
+	<div id="intro-container" class="intro">
 		<h3>HOW WELL DO YOU KNOW YOUR GEOGRAPHY?</h3>
 		<h3>TAKE THE QUIZ AND FIND OUT!</h3>
 		<button class="start">
 			<h2>LET'S GET STARTED</h2>
 		</button>
-	</div>	
-	<div class="container">
+	</div>
+	<div id="question-container" class="hidden">
 		<div class="questions">
 			<div class ="q1">
 				<h2>What is the capital of Australia?</h2>
@@ -34,50 +34,6 @@
 					<li><a href="#">Canberra</a></li>
 					<li><a href="#">Melbourne</a></li>
 					<li><a href="#">Adelaide</a></li>
-					</h3>
-				</ul>
-			</div>
-			<div class ="q2">
-				<h2>By area, what is the smallest country on the planet?</h2>
-				<ul class="choices">
-					<h3>
-					<li class="correct"><a href="#">Vatican City</a></li>
-					<li><a href="#">Monaco</a></li>
-					<li><a href="#">Nauru</a></li>
-					<li><a href="#">Madagascar</a></li>
-					</h3>
-				</ul>
-			</div>
-			<div class ="q3">
-				<h2>What is the name of the tallest uninterrupted waterfall in the world?</h2>
-				<ul class="choices">
-					<h3>
-					<li><a href="#">Victoria Falls</a></li>
-					<li class="correct"><a href="#">Angel Falls</a></li>
-					<li><a href="#">Niagara Falls</a></li>
-					<li><a href="#">Alamere Falls</a></li>
-					</h3>
-				</ul>
-			</div>
-			<div class ="q4">
-				<h2>What is the correct spelling of this landlocked Asian nation?</h2>
-				<ul class="choices">
-					<h3>
-					<li class="correct"><a href="#">Kyrgyzstan</a></li>
-					<li><a href="#">Kurjistan</a></li>
-					<li><a href="#">Kergystan</a></li>
-					<li><a href="#">Kyigyzstan</a></li>
-					</h3>
-				</ul>
-			</div>
-			<div class ="q5">
-				<h2>What country is home to the tallest mountain in the world, Mount Everest?</h2>
-				<ul class="choices">
-					<h3>
-					<li><a href="#">Pakistan</a></li>
-					<li><a href="#">India</a></li>
-					<li><a href="#">Bhutan</a></li>
-					<li class="correct"><a href="#">Nepal</a></li>
 					</h3>
 				</ul>
 			</div>
@@ -95,7 +51,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="container2">
+	<div id="result-container" class="hidden">
 		<div class="result">
 			<h1>SORRY, WRONG ANSWER</h1>
 			<h2>The correct answer is:</h2>
@@ -105,7 +61,7 @@
 			</button>
 		</div>
 	</div>
-	<div class="container2">
+	<div id="end-container" class="hidden">
 		<div class="endGame">
 			<h1>THANKS FOR PLAYING!</h1>
 			<h1>YOUR SCORE IS:</h1>
@@ -115,6 +71,7 @@
 			</button>
 		</div>
 	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
