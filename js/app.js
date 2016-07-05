@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.start').on('click', function(){
+	$('.start').on('click', function(e) {
 		e.preventDefault();
 		$('#container > .questions').show();
 		$('.start').hide();
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 		quiz.nextQuestion();
 		// Hide answer div
-		
+
 		// Show questions div
 	});
 
@@ -50,7 +50,7 @@ var questions = [{
 }];
 
 var quiz = {
-	questions: question,
+	questions: questions,
 	currentQuestion: 0,
 	score: 0,
 	nextQuestion: function() {
@@ -64,10 +64,10 @@ var quiz = {
 		var question = this.questions[this.currentQuestion];
 		$('answer-div').append(question.question);
 		question.choices.forEach(function(choice, i) {
-			$('q-radio')[i].append(choice); 
+			$('q-radio')[i].append(choice);
 			// This may be the wrong way to work with radio in jQuery
 			// NOTE: http://stackoverflow.com/questions/596351/how-can-i-know-which-radio-button-is-selected-via-jquery
-			 
+
 		});
 	},
 	checkAnswer: function() {
@@ -75,8 +75,8 @@ var quiz = {
 		// If answer is correct increment this.score
 		var answer = $('q-radio').value();
 		// This may be the wrong way to work with radio in jQuery
-		if (answer === this.questions[this.currentQuestion].correct) 
+		if (answer === this.questions[this.currentQuestion].correct) {
 			//increment
+    }
 	},
 };
-
